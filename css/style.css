@@ -1,46 +1,66 @@
-body{
+/* General Styling */
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: #333;
     color: #fff;
     padding: 1rem;
+}
+
+
+/* Section Styling */
+section {
+    min-height: 80vh; /* Ensures consistent height across all sections */
+    padding: 4rem 0;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Home Section with Background Image */
+#home {
+    background-image: url('your-image-path.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff; /* Text color for visibility over the image */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
     align-items: center;
 }
 
-.nav-links{
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
-
-.nav-links a{
+.nav-links a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover{
+.nav-links a:hover {
     color: #ff6347;
 }
 
-.hero{
+/* Hero Section */
+.hero {
     text-align: center;
     padding: 4rem 0;
     background: #f4f4f4;
 }
 
-.hero h1{
+.hero h1 {
     font-size: 3rem;
 }
 
-.btn{
+.btn {
     background-color: #333;
     color: #fff;
     padding: 0.75rem 1.5rem;
@@ -49,32 +69,68 @@ header{
     transition: background-color 0.3s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #ff6347;
 }
 
-.projects-container{
+/* Projects Section */
+.projects-container {
     display: flex;
-    gap:2rem;
+    gap: 2rem;
     padding: 2rem;
+    justify-content: center;
 }
 
-.project-card{
+.project-card {
     background-color: #fff;
     padding: 1.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
+    max-width: 400px;
+    text-align: center;
 }
 
-.skills-container ul{
+#project-name{
+    color: #333;
+}
+
+/* Skills Section */
+.skills-container ul {
     list-style: none;
     display: flex;
-    gap:1.5rem;
+    gap: 1.5rem;
     padding: 1rem;
+    justify-content: center;
+}
+
+.skill-pill {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.skill-pill:hover {
+    background-color: #ff6347;
+}
+
+/* Section Background Colors */
+.section-light {
     background-color: #f4f4f4;
 }
 
-footer{
+.section-dark {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+/* Footer */
+footer {
     text-align: center;
     padding: 1rem;
     background-color: #333;
