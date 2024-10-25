@@ -135,6 +135,29 @@ section {
     padding: 2rem 0;
 }
 
+/* Section contact me*/
+#contact{
+    text-align: center;
+}
+
+.contact-icons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.contact-icons a{
+    color: #333;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover{
+    color: #ff6347;
+}
+
 /* Footer */
 footer {
     text-align: center;
