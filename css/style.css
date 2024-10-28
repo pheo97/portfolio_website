@@ -25,7 +25,7 @@ section {
 
 /* Home Section with Background Image */
 #home {
-    background-image: url('your-image-path.jpg'); /* Replace with your image path */
+    background-image: url('/image/black-rocks-5120x2880-17153.jpg'); /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -47,14 +47,18 @@ section {
 }
 
 .nav-links a:hover {
-    color: #ff6347;
+    color: #CE2029;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
     padding: 4rem 0;
-    background: #f4f4f4;
+
+}
+
+span{
+    color: #CE2029;
 }
 
 .hero h1 {
@@ -71,7 +75,7 @@ section {
 }
 
 .btn:hover {
-    background-color: #ff6347;
+    background-color: #CE2029;
 }
 
 /* Projects Section */
@@ -155,7 +159,7 @@ section {
 }
 
 .contact-icons a:hover{
-    color: #ff6347;
+    color: #ce2029;
 }
 
 /* Footer */
