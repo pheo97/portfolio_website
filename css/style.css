@@ -25,7 +25,15 @@ section {
 
 /* Home Section with Background Image */
 #home {
-    background-image: url('/image/black-rocks-5120x2880-17153.jpg'); /* Replace with your image path */
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    /* bottom, image */
+    url('/image/black-rocks-5120x2880-17153.jpg');
+     /* Replace with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
