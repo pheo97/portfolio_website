@@ -28,6 +28,7 @@ section {
 
 /* Home Section with Background Image */
 #home {
+  width: 100%;
   background:
     /* top, transparent black, faked with gradient */ linear-gradient(
       rgba(0, 0, 0, 0.7),
